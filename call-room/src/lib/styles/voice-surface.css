@@ -1,0 +1,16 @@
+.voice-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.voice-title {
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.signal-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
