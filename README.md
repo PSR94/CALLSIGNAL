@@ -73,29 +73,17 @@ The QA review path uses a deterministic rubric so the same call history produces
 
 The UI previews are based on implemented screens and are labeled as previews rather than screenshots.
 
-### Architecture
+- [Voice session architecture](diagrams/voice_session_map.svg)
+- [Transcript signal lanes](diagrams/transcript_signal_lanes.svg)
+- [Escalation and handoff flow](diagrams/escalation_handoff_flow.svg)
+- [Redaction pipeline](diagrams/redaction_pipeline.svg)
+- [QA review loop](diagrams/qa_review_loop.svg)
+- [Voice Workspace preview](demo-kit/preview_assets/voice_workspace_preview.svg)
+- [Supervisor Board preview](demo-kit/preview_assets/supervisor_board_preview.svg)
+- [Call Review preview](demo-kit/preview_assets/call_review_preview.svg)
+- [Escalation Queue preview](demo-kit/preview_assets/escalation_queue_preview.svg)
 
-![Voice session architecture](diagrams/voice_session_map.svg)
-
-![Transcript signal lanes](diagrams/transcript_signal_lanes.svg)
-
-![Escalation and handoff flow](diagrams/escalation_handoff_flow.svg)
-
-![Redaction pipeline](diagrams/redaction_pipeline.svg)
-
-![QA review loop](diagrams/qa_review_loop.svg)
-
-### Demo Views
-
-![Voice Workspace preview](demo-kit/preview_assets/voice_workspace_preview.svg)
-
-![Supervisor Board preview](demo-kit/preview_assets/supervisor_board_preview.svg)
-
-![Call Review preview](demo-kit/preview_assets/call_review_preview.svg)
-
-![Escalation Queue preview](demo-kit/preview_assets/escalation_queue_preview.svg)
-
-These galleries are the canonical demo and architecture visuals for the current build.
+The assets are intentionally plain: they document the implemented layouts without trying to look like production screenshots.
 
 ## Folder Structure Rationale
 
