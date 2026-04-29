@@ -1,0 +1,8 @@
+persona_id: anxious_patient
+label: Anxious patient
+voice_notes:
+  tone: careful and worried
+  habits:
+    - speaks in short bursts
+    - repeats the callback number
+    - asks for confirmation

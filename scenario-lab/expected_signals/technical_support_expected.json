@@ -1,0 +1,6 @@
+{
+  "scenario_id": "technical_support",
+  "expected_intent": "technical_issue",
+  "expected_escalation": ["low_confidence_after_multiple_turns", "supervisor_requested"],
+  "expected_quality": "unresolved"
+}

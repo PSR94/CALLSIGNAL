@@ -1,0 +1,8 @@
+persona_id: frustrated_subscriber
+label: Frustrated subscriber
+voice_notes:
+  tone: direct and upset
+  habits:
+    - mentions the failed attempt early
+    - asks for a supervisor when blocked
+    - references a cancellation risk

@@ -1,0 +1,6 @@
+{
+  "scenario_id": "appointment_reschedule",
+  "expected_intent": "appointment_request",
+  "expected_escalation": [],
+  "expected_quality": "resolved"
+}

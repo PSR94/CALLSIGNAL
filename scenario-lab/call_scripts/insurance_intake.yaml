@@ -1,0 +1,25 @@
+scenario_id: insurance_intake
+title: Insurance intake with PII redaction
+caller_persona: anxious_patient
+problem_type: intake
+turns:
+  - turn_id: int-1
+    speaker: caller
+    text: My name is Jordan Lee and my member ID is MBR-88219.
+    kind: final
+  - turn_id: int-2
+    speaker: caller
+    text: My phone number is 555-214-9876 and my email is jordan.lee@example.com.
+    kind: final
+  - turn_id: int-3
+    speaker: agent
+    text: I have the intake details and will send the summary after verification.
+    kind: final
+expected_intents:
+  - insurance_intake
+expected_redactions:
+  - member_id
+  - phone
+  - email
+expected_escalation: []
+expected_quality: intake_complete

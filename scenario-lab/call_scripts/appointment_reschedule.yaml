@@ -1,0 +1,22 @@
+scenario_id: appointment_reschedule
+title: Appointment reschedule with successful resolution
+caller_persona: routine_policy_holder
+problem_type: scheduling
+turns:
+  - turn_id: appt-1
+    speaker: caller
+    text: Hi, I need to reschedule my appointment for May 12.
+    kind: final
+  - turn_id: appt-2
+    speaker: agent
+    text: I can move that to May 15 at 10:00 AM.
+    kind: final
+  - turn_id: appt-3
+    speaker: caller
+    text: That works. Please call me back if anything changes.
+    kind: final
+expected_intents:
+  - appointment_request
+expected_redactions: []
+expected_escalation: []
+expected_quality: resolved

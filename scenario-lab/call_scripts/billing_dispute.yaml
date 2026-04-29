@@ -1,0 +1,27 @@
+scenario_id: billing_dispute
+title: Billing dispute with escalation
+caller_persona: frustrated_subscriber
+problem_type: billing
+turns:
+  - turn_id: bill-1
+    speaker: caller
+    text: Hello, I was charged twice on my invoice and I need a refund today.
+    kind: final
+  - turn_id: bill-2
+    speaker: agent
+    text: I can help review the charge and verify the account.
+    kind: final
+  - turn_id: bill-3
+    speaker: caller
+    text: This is unacceptable. Please escalate me to a supervisor.
+    kind: final
+expected_intents:
+  - billing_question
+  - escalation_request
+expected_redactions:
+  - payment_like
+expected_escalation:
+  - angry_language
+  - supervisor_requested
+  - payment_dispute
+expected_quality: elevated_risk

@@ -1,0 +1,25 @@
+scenario_id: technical_support
+title: Technical support call with repeated unresolved issue
+caller_persona: anxious_patient
+problem_type: technical
+turns:
+  - turn_id: tech-1
+    speaker: caller
+    text: My portal keeps returning an error and nothing is working.
+    kind: final
+  - turn_id: tech-2
+    speaker: agent
+    text: Please clear the cache and try again.
+    kind: final
+  - turn_id: tech-3
+    speaker: caller
+    text: I already tried that twice and it still fails. I need a supervisor.
+    kind: final
+expected_intents:
+  - technical_issue
+  - escalation_request
+expected_redactions: []
+expected_escalation:
+  - low_confidence_after_multiple_turns
+  - supervisor_requested
+expected_quality: unresolved

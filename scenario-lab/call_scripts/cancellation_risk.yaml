@@ -1,0 +1,25 @@
+scenario_id: cancellation_risk
+title: Cancellation-risk retention call
+caller_persona: frustrated_subscriber
+problem_type: retention
+turns:
+  - turn_id: cancel-1
+    speaker: caller
+    text: I am thinking about canceling because the service has been broken all week.
+    kind: final
+  - turn_id: cancel-2
+    speaker: agent
+    text: I can review the issue and look for a retention option.
+    kind: final
+  - turn_id: cancel-3
+    speaker: caller
+    text: If this cannot be fixed today, I will close my account.
+    kind: final
+expected_intents:
+  - cancellation_request
+  - complaint
+expected_redactions: []
+expected_escalation:
+  - cancellation_risk
+  - angry_language
+expected_quality: retention_risk

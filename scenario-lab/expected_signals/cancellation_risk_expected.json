@@ -1,0 +1,6 @@
+{
+  "scenario_id": "cancellation_risk",
+  "expected_intent": "cancellation_request",
+  "expected_escalation": ["angry_language", "cancellation_risk"],
+  "expected_quality": "retention_risk"
+}

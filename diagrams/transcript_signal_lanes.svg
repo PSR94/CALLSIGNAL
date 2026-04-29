@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <rect width="1200" height="620" rx="32" fill="#061019"/>
+  <g stroke="#22354f" stroke-width="2">
+    <path d="M80 130 H1120"/>
+    <path d="M80 250 H1120"/>
+    <path d="M80 370 H1120"/>
+    <path d="M80 490 H1120"/>
+  </g>
+  <g font-family="sans-serif" font-size="22" fill="#d9e8ff">
+          <text x="80" y="92">transcript lanes</text>
+          <text x="80" y="212">intent changes</text>
+          <text x="80" y="332">redaction events</text>
+          <text x="80" y="452">handoff packet</text>
+  </g>
+  <g>
+    <rect x="300" y="92" width="220" height="48" rx="14" fill="#0e2236" stroke="#42a5ff"/>
+    <rect x="560" y="92" width="240" height="48" rx="14" fill="#0e2236" stroke="#3be0a2"/>
+    <rect x="840" y="92" width="220" height="48" rx="14" fill="#0e2236" stroke="#fb7185"/>
+    <rect x="320" y="212" width="200" height="48" rx="14" fill="#0e2236" stroke="#42a5ff"/>
+    <rect x="560" y="212" width="220" height="48" rx="14" fill="#0e2236" stroke="#3be0a2"/>
+    <rect x="320" y="332" width="260" height="48" rx="14" fill="#0e2236" stroke="#42a5ff"/>
+    <rect x="620" y="332" width="180" height="48" rx="14" fill="#0e2236" stroke="#3be0a2"/>
+    <rect x="840" y="332" width="160" height="48" rx="14" fill="#0e2236" stroke="#fbbf24"/>
+    <rect x="320" y="452" width="320" height="48" rx="14" fill="#0e2236" stroke="#fb7185"/>
+    <rect x="680" y="452" width="220" height="48" rx="14" fill="#0e2236" stroke="#3be0a2"/>
+  </g>
+  <g font-family="sans-serif" font-size="18" fill="#bfd4f5">
+    <text x="332" y="122">caller: I need a refund today</text>
+    <text x="592" y="122">agent: let me review the charge</text>
+    <text x="866" y="122">caller: escalate me</text>
+    <text x="350" y="242">billing_question</text>
+    <text x="592" y="242">escalation_request</text>
+    <text x="350" y="362">[redacted-phone]</text>
+    <text x="646" y="362">[redacted-email]</text>
+    <text x="860" y="362">[redacted-id]</text>
+    <text x="348" y="482">summary · intent · priority · queue</text>
+    <text x="706" y="482">next best action</text>
+  </g>
+</svg>

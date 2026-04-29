@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <rect width="1200" height="620" rx="32" fill="#07111d"/>
+  <g stroke="#36516f" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M160 120 C290 120, 290 120, 380 120"/>
+    <path d="M500 120 C610 120, 610 120, 710 120"/>
+    <path d="M830 120 C940 120, 940 120, 1040 120"/>
+    <path d="M1040 240 C1040 340, 940 340, 840 340"/>
+    <path d="M840 340 C720 340, 720 340, 610 340"/>
+    <path d="M610 340 C500 340, 500 340, 380 340"/>
+    <path d="M380 340 C260 340, 260 340, 160 340"/>
+  </g>
+  <g font-family="sans-serif" font-size="22" fill="#d9e8ff">
+          <text x="96" y="98">escalation detected</text>
+          <text x="458" y="98">handoff packet</text>
+          <text x="792" y="98">supervisor queue</text>
+          <text x="824" y="318">resolution / review</text>
+          <text x="470" y="318">coach note</text>
+          <text x="120" y="318">call outcome</text>
+  </g>
+  <g>
+    <rect x="120" y="140" width="180" height="62" rx="18" fill="#11263d" stroke="#fb7185"/>
+    <rect x="454" y="140" width="180" height="62" rx="18" fill="#11263d" stroke="#42a5ff"/>
+    <rect x="790" y="140" width="180" height="62" rx="18" fill="#11263d" stroke="#3be0a2"/>
+    <rect x="790" y="360" width="180" height="62" rx="18" fill="#11263d" stroke="#fbbf24"/>
+    <rect x="454" y="360" width="180" height="62" rx="18" fill="#11263d" stroke="#42a5ff"/>
+    <rect x="120" y="360" width="180" height="62" rx="18" fill="#11263d" stroke="#fb7185"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "scenario_id": "insurance_intake",
+  "expected_intent": "insurance_intake",
+  "expected_redactions": ["member_id", "phone", "email"],
+  "expected_quality": "intake_complete"
+}

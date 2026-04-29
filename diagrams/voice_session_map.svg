@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" rx="32" fill="#07101d"/>
+  <g fill="none" stroke="#26415d" stroke-width="2">
+    <path d="M120 120 H1080"/>
+    <path d="M120 240 H1080"/>
+    <path d="M120 360 H1080"/>
+    <path d="M120 480 H1080"/>
+    <path d="M120 600 H1080"/>
+  </g>
+  <g font-family="sans-serif" font-size="22" fill="#d9e8ff">
+    <text x="80" y="126">call session</text>
+    <text x="80" y="246">transcript stream</text>
+    <text x="80" y="366">signals</text>
+    <text x="80" y="486">handoff</text>
+    <text x="80" y="606">review</text>
+  </g>
+  <g>
+    <rect x="250" y="88" width="230" height="64" rx="18" fill="#0f2741" stroke="#42a5ff"/>
+    <rect x="520" y="88" width="230" height="64" rx="18" fill="#0f2741" stroke="#3be0a2"/>
+    <rect x="790" y="88" width="250" height="64" rx="18" fill="#0f2741" stroke="#fbbf24"/>
+    <rect x="250" y="208" width="300" height="64" rx="18" fill="#0f2741" stroke="#42a5ff"/>
+    <rect x="590" y="208" width="250" height="64" rx="18" fill="#0f2741" stroke="#3be0a2"/>
+    <rect x="870" y="208" width="170" height="64" rx="18" fill="#0f2741" stroke="#fbbf24"/>
+    <rect x="250" y="328" width="250" height="64" rx="18" fill="#0f2741" stroke="#42a5ff"/>
+    <rect x="530" y="328" width="230" height="64" rx="18" fill="#0f2741" stroke="#3be0a2"/>
+    <rect x="790" y="328" width="250" height="64" rx="18" fill="#0f2741" stroke="#fb7185"/>
+    <rect x="250" y="448" width="310" height="64" rx="18" fill="#0f2741" stroke="#fb7185"/>
+    <rect x="590" y="448" width="220" height="64" rx="18" fill="#0f2741" stroke="#3be0a2"/>
+    <rect x="250" y="568" width="270" height="64" rx="18" fill="#0f2741" stroke="#42a5ff"/>
+    <rect x="550" y="568" width="290" height="64" rx="18" fill="#0f2741" stroke="#3be0a2"/>
+  </g>
+  <g fill="#bfd4f5" font-family="sans-serif" font-size="18">
+    <text x="286" y="128">create / start / end</text>
+    <text x="580" y="128">state machine</text>
+    <text x="834" y="128">audit trail</text>
+    <text x="290" y="248">partial + final turns</text>
+    <text x="616" y="248">speaker markers</text>
+    <text x="892" y="248">timing</text>
+    <text x="290" y="368">intent detection</text>
+    <text x="556" y="368">field extraction</text>
+    <text x="826" y="368">redaction</text>
+    <text x="290" y="488">handoff packet</text>
+    <text x="626" y="488">queue priority</text>
+    <text x="288" y="608">QA score</text>
+    <text x="590" y="608">review report</text>
+  </g>
+</svg>

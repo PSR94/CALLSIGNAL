@@ -1,0 +1,6 @@
+{
+  "scenario_id": "billing_dispute",
+  "expected_intent": "billing_question",
+  "expected_escalation": ["angry_language", "payment_dispute", "supervisor_requested"],
+  "expected_quality": "elevated_risk"
+}

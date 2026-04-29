@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <rect width="1200" height="620" rx="32" fill="#061019"/>
+  <g font-family="sans-serif" font-size="22" fill="#d9e8ff">
+          <text x="90" y="104">raw turn</text>
+          <text x="350" y="104">normalize</text>
+          <text x="620" y="104">detect</text>
+          <text x="860" y="104">safe transcript</text>
+  </g>
+  <g stroke="#35516d" stroke-width="3" fill="none">
+    <path d="M180 180 H320"/>
+    <path d="M440 180 H580"/>
+    <path d="M680 180 H820"/>
+    <path d="M920 180 H1040"/>
+  </g>
+  <g>
+    <rect x="110" y="140" width="140" height="80" rx="18" fill="#11263d" stroke="#42a5ff"/>
+    <rect x="360" y="140" width="140" height="80" rx="18" fill="#11263d" stroke="#3be0a2"/>
+    <rect x="610" y="140" width="140" height="80" rx="18" fill="#11263d" stroke="#fbbf24"/>
+    <rect x="860" y="140" width="220" height="80" rx="18" fill="#11263d" stroke="#42a5ff"/>
+  </g>
+  <g font-family="sans-serif" font-size="18" fill="#bfd4f5">
+    <text x="132" y="188">555-214-9876</text>
+    <text x="382" y="188">normalized</text>
+    <text x="628" y="188">matched</text>
+    <text x="884" y="188">[redacted-phone]</text>
+  </g>
+  <text x="90" y="340" fill="#7ea4d6" font-family="sans-serif" font-size="20">Raw values stay inside the backend boundary. The UI sees only the safe projection and event log.</text>
+</svg>
