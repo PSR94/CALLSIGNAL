@@ -1,0 +1,42 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install backend
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ./signal-server
+      - name: Install frontend
+        run: cd call-room && npm install
+      - name: Seed demo state
+        run: python -m callsignal.tools.seed_demo_state
+        working-directory: signal-server
+      - name: Backend tests
+        run: pytest tests -q
+        working-directory: signal-server
+      - name: Frontend check
+        run: npm run check
+        working-directory: call-room
+      - name: Frontend tests
+        run: npm test
+        working-directory: call-room
+      - name: Demo call smoke
+        run: python -m callsignal.tools.run_demo_call
+        working-directory: signal-server
+      - name: No AI trace audit
+        run: bash tools/verify_no_ai_traces.sh
+      - name: Empty folder audit
+        run: bash tools/check_empty_folders.sh

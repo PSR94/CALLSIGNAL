@@ -1,8 +1,0 @@
-fastapi<1.0,>=0.115
-uvicorn[standard]<1.0,>=0.30
-sqlmodel<1.0,>=0.0.22
-pydantic<3.0,>=2.7
-PyYAML<7.0,>=6.0
-python-multipart<1.0,>=0.0.9
-httpx<1.0,>=0.27
-pytest<9.0,>=8.0

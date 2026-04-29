@@ -1,0 +1,18 @@
+services:
+  api:
+    build:
+      context: ./signal-server
+    env_file:
+      - ./.env.example
+    ports:
+      - "8088:8088"
+    command: ["uvicorn", "callsignal.app:app", "--host", "0.0.0.0", "--port", "8088"]
+  call-room:
+    build:
+      context: ./call-room
+    environment:
+      - PUBLIC_API_BASE_URL=http://api:8088
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api
