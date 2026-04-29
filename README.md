@@ -62,6 +62,13 @@ When escalation rules trigger, the backend builds a handoff packet with the call
 
 The QA review path uses a deterministic rubric so the same call history produces the same score, missed items, and coaching notes.
 
+## Known Limitations
+
+- The demo path is deterministic and synthetic; it is meant to show the call flow, not simulate live production traffic.
+- The current build runs locally with seeded data and does not include external telephony, speech, or identity integrations.
+- The supervisor and review views are designed for the seeded scenarios in this repository and will need more filtering if the dataset grows substantially.
+- The repo favors clarity and honest previews over polished production branding.
+
 ## Visual Previews
 
 The UI previews are based on implemented screens and are labeled as previews rather than screenshots.
