@@ -1,0 +1,49 @@
+states:
+  - idle
+  - connecting
+  - active
+  - extracting
+  - escalation_pending
+  - handoff_ready
+  - resolved
+  - escalated
+  - ended
+  - failed
+transitions:
+  idle:
+    - connecting
+  connecting:
+    - active
+    - failed
+  active:
+    - extracting
+    - escalation_pending
+    - resolved
+    - escalated
+    - ended
+    - failed
+  extracting:
+    - active
+    - escalation_pending
+    - resolved
+    - escalated
+    - ended
+    - failed
+  escalation_pending:
+    - handoff_ready
+    - escalated
+    - resolved
+    - ended
+    - failed
+  handoff_ready:
+    - escalated
+    - resolved
+    - ended
+    - failed
+  resolved:
+    - ended
+  escalated:
+    - resolved
+    - ended
+  ended: []
+  failed: []
